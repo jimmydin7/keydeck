@@ -3297,16 +3297,89 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 52.3875 46.890239)
-		(end 114.3 109.5375)
+	(gr_arc
+		(start 57.3875 109.5375)
+		(mid 53.851966 108.073034)
+		(end 52.3875 104.5375)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "5847eb9f-25ba-4e4e-9bf9-4d96b651da6a")
+		(uuid "16ba14d1-8b7e-4a71-bd68-56cabf5dc844")
+	)
+	(gr_line
+		(start 109.3 109.5375)
+		(end 57.3875 109.5375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "180b4808-544d-4898-a7cb-12826ecccb02")
+	)
+	(gr_line
+		(start 114.3 51.890239)
+		(end 114.3 104.5375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "25ab1cd8-bda6-41a2-993c-f07f29478877")
+	)
+	(gr_line
+		(start 52.3875 104.5375)
+		(end 52.3875 51.890239)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "30a05506-2423-43db-aac0-d8f3fa13a627")
+	)
+	(gr_arc
+		(start 109.3 46.890239)
+		(mid 112.835534 48.354705)
+		(end 114.3 51.890239)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "363a473c-f5ac-4e63-91e9-6a698a089d61")
+	)
+	(gr_arc
+		(start 52.3875 51.890239)
+		(mid 53.851952 48.35468)
+		(end 57.3875 46.890239)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "38a55245-7bcc-4fb5-8ab0-363ce62e6f55")
+	)
+	(gr_line
+		(start 57.3875 46.890239)
+		(end 109.3 46.890239)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "692452c2-5265-4125-ba0d-d26333ebcefa")
+	)
+	(gr_arc
+		(start 114.3 104.5375)
+		(mid 112.835534 108.073034)
+		(end 109.3 109.5375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9ebfee93-e9d6-4da9-bb0e-13e30fd47aed")
 	)
 	(gr_text "Made by Jim Dinias\nKeydeck"
 		(at 54.76875 52.3875 0)
